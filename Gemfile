@@ -14,6 +14,7 @@ end
 
 
 gem 'carrierwave'
+gem 'carrierwave-blob', git: "https://gist.github.com/f1dc8c75d67b92b23a55.git"
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
@@ -47,3 +48,5 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
+
+
